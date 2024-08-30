@@ -1,0 +1,30 @@
+{
+  "name": "demo",
+  "version": "1.0.0",
+  "main": "main.js",
+  "uni-app": {
+    "scripts": {
+      "mp-dingtalk-test": {
+        "title": "钉钉小程序-测试",
+        "env": {
+          "UNI_PLATFORM": "mp-alipay"
+        },
+        "define": {
+          "MP-DINGTALK": true
+        }
+      },
+      "h5": {
+        "title": "h5",
+        "browser": "edge",
+        "env": {
+          "UNI_PLATFORM": "h5"
+        },
+        "define": {}
+      }
+    }
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
